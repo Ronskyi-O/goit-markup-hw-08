@@ -1,15 +1,38 @@
 .features {
-    padding: 94px 0;
+    padding: 60px 0;
+
+    @media screen and (min-width: 1200px) {
+        padding: 94px 0;
+    }
 
     &__container {
-        display: flex;
-        gap: 30px;
+        @media screen and (min-width: 768px) {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
     }
 
     &__card {
-        width: 270px;
-        min-height: 251px;
+        width: 100%;
+        min-height: 226px;
+
+        @media screen and (min-width: 768px) {
+            width: 354px;
+            min-height: 251px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+        }
     }
+
+    &__card:not(:last-child) {
+        @media screen and (max-width: 767px) {
+            margin-bottom: 30px;
+        }
+    }
+
 
     &__logo {
         display: flex;
@@ -32,9 +55,14 @@
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+
+        @media screen and (max-width: 767px) {
+            text-align: center;
+        }
     }
 
     &__text {
+
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;

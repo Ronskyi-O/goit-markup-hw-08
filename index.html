@@ -131,18 +131,19 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/./studio/products/products-1.jpg     1x,
-                      ./images/./studio/products/products-1@2x.jpeg 2x
-                    "
-                    sizes="img/jpeg"
-                  />
-                  <source
-                    srcset="
                       ./images/./studio/products/products-1.webp    1x,
                       ./images/./studio/products/products-1@2x.webp 2x
                     "
                     sizes="img/webp"
                   />
+                  <source
+                    srcset="
+                      ./images/./studio/products/products-1.jpg     1x,
+                      ./images/./studio/products/products-1@2x.jpeg 2x
+                    "
+                    sizes="img/jpeg"
+                  />
+
                   <img
                     class="products__img"
                     src="./images/./studio/products/products-1.jpg"
@@ -161,18 +162,19 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/./studio/products/products-2.jpg     1x,
-                      ./images/./studio/products/products-2@2x.jpeg 2x
-                    "
-                    sizes="img/jpeg"
-                  />
-                  <source
-                    srcset="
                       ./images/./studio/products/products-2.webp    1x,
                       ./images/./studio/products/products-2@2x.webp 2x
                     "
                     sizes="img/webp"
                   />
+                  <source
+                    srcset="
+                      ./images/./studio/products/products-2.jpg     1x,
+                      ./images/./studio/products/products-2@2x.jpeg 2x
+                    "
+                    sizes="img/jpeg"
+                  />
+
                   <img
                     class="products__img"
                     src="./images/./studio/products/products-2.jpg"
@@ -191,18 +193,19 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/./studio/products/products-3.jpg     1x,
-                      ./images/./studio/products/products-3@2x.jpeg 2x
-                    "
-                    sizes="img/jpeg"
-                  />
-                  <source
-                    srcset="
                       ./images/./studio/products/products-3.webp    1x,
                       ./images/./studio/products/products-3@2x.webp 2x
                     "
                     sizes="img/webp"
                   />
+                  <source
+                    srcset="
+                      ./images/./studio/products/products-3.jpg     1x,
+                      ./images/./studio/products/products-3@2x.jpeg 2x
+                    "
+                    sizes="img/jpeg"
+                  />
+
                   <img
                     class="products__img"
                     src="./images/./studio/products/products-3.jpg"
@@ -221,18 +224,68 @@
       </section>
 
       <!-- Блок Наша команда -->
-      <!-- <section class="team">
+      <section class="team">
         <div class="container">
           <h2 class="team__tittle tittle">Наша команда</h2>
           <ul class="team__cardSet cardSet">
             <li class="team__card">
-              <img
-                class="team__img"
-                src="./images/./studio/our-team/our-team-1.jpg"
-                alt="Мужчина в очках и бордовой рубашке"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-1_des.webp    1x,
+                    ./images/studio/our-team/our-team-1@2x_des.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-1_des.jpg     1x,
+                    ./images/studio/our-team/our-team-1@2x_des.jpeg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-1_tab.webp    1x,
+                    ./images/studio/our-team/our-team-1@2x_tab.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-1_tab.jpeg    1x,
+                    ./images/studio/our-team/our-team-1@2x_tab.jpeg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <source
+                  media="(max-width: 767px"
+                  srcset="
+                    ./images/studio/our-team/our-team-1_mob.webp    1x,
+                    ./images/studio/our-team/our-team-1@2x_mob.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-1_mob.jpeg    1x,
+                    ./images/studio/our-team/our-team-1@2x_mob.jpeg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  class="team__img"
+                  src="./images/studio/our-team/our-team-1_mob.jpeg"
+                  alt="Мужчина в очках и бордовой рубашке"
+                  width="450"
+                  height="460"
+                />
+              </picture>
               <h3 class="team__name">Игорь Демьяненко</h3>
               <p class="team__position" lang="en">Product Designer</p>
               <ul class="team__socialMedia socialMedia">
@@ -291,13 +344,63 @@
               </ul>
             </li>
             <li class="team__card">
-              <img
-                class="team__img"
-                src="./images/./studio/our-team/our-team-2.jpg"
-                alt="Девушка в очках и черном пиджаке"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-2_des.webp    1x,
+                    ./images/studio/our-team/our-team-2@2x_des.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-2_des.jpg     1x,
+                    ./images/studio/our-team/our-team-2@2x_des.jpeg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-2_tab.webp    1x,
+                    ./images/studio/our-team/our-team-2@2x_tab.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-2_tab.jpeg    1x,
+                    ./images/studio/our-team/our-team-2@2x_tab.jpeg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <source
+                  media="(max-width: 767px"
+                  srcset="
+                    ./images/studio/our-team/our-team-2_mob.webp    1x,
+                    ./images/studio/our-team/our-team-2@2x_mob.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-2_mob.jpeg    1x,
+                    ./images/studio/our-team/our-team-2@2x_mob.jpeg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  class="team__img"
+                  src="./images/./studio/our-team/our-team-2_mob.jpeg"
+                  alt="Девушка в очках и черном пиджаке"
+                  width="450"
+                  height="460"
+                />
+              </picture>
               <h3 class="team__name">Ольга Репина</h3>
               <p class="team__position" lang="en">Frontend Developer</p>
               <ul class="team__socialMedia socialMedia">
@@ -356,13 +459,63 @@
               </ul>
             </li>
             <li class="team__card">
-              <img
-                class="team__img"
-                src="./images/./studio/our-team/our-team-3.jpg"
-                alt="Мужчина в голубой рубашке"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-3_des.webp    1x,
+                    ./images/studio/our-team/our-team-3@2x_des.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-3_des.jpg     1x,
+                    ./images/studio/our-team/our-team-3@2x_des.jpeg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-3_tab.webp    1x,
+                    ./images/studio/our-team/our-team-3@2x_tab.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-3_tab.jpeg    1x,
+                    ./images/studio/our-team/our-team-3@2x_tab.jpeg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <source
+                  media="(max-width: 767px"
+                  srcset="
+                    ./images/studio/our-team/our-team-3_mob.webp    1x,
+                    ./images/studio/our-team/our-team-3@2x_mob.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-3_mob.jpeg    1x,
+                    ./images/studio/our-team/our-team-3@2x_mob.jpeg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  class="team__img"
+                  src="./images/./studio/our-team/our-team-3_mob.jpeg"
+                  alt="Мужчина в голубой рубашке"
+                  width="450"
+                  height="460"
+                />
+              </picture>
               <h3 class="team__name">Николай Тарасов</h3>
               <p class="team__position" lang="en">Marketing</p>
               <ul class="team__socialMedia socialMedia">
@@ -421,13 +574,63 @@
               </ul>
             </li>
             <li class="team__card">
-              <img
-                class="team__img"
-                src="./images/./studio/our-team/our-team-4.jpg"
-                alt="Мужчина в очках и чёрной футболке"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-4_des.webp    1x,
+                    ./images/studio/our-team/our-team-4@2x_des.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-4_des.jpg     1x,
+                    ./images/studio/our-team/our-team-4@2x_des.jpeg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-4_tab.webp    1x,
+                    ./images/studio/our-team/our-team-4@2x_tab.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-4_tab.jpeg    1x,
+                    ./images/studio/our-team/our-team-4@2x_tab.jpeg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <source
+                  media="(max-width: 767px"
+                  srcset="
+                    ./images/studio/our-team/our-team-4_mob.webp    1x,
+                    ./images/studio/our-team/our-team-4@2x_mob.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/studio/our-team/our-team-4_mob.jpeg    1x,
+                    ./images/studio/our-team/our-team-4@2x_mob.jpeg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  class="team__img"
+                  src="./images/./studio/our-team/our-team-4_mob.jpeg"
+                  alt="Мужчина в очках и чёрной футболке"
+                  width="450"
+                  height="460"
+                />
+              </picture>
               <h3 class="team__name">Михаил Ермаков</h3>
               <p class="team__position" lang="en">UI Designer</p>
               <ul class="team__socialMedia socialMedia">
@@ -487,7 +690,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--Блок Клиенты -->
 

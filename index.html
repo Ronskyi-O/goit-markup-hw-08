@@ -122,19 +122,35 @@
       </section>
 
       <!-- Блок Чем мы занимаемся-->
-      <!-- <section class="products">
+      <section class="products">
         <div class="container">
           <h2 class="products__tittle tittle">Чем мы занимаемся</h2>
           <ul class="products__cardSet cardSet">
             <li class="products__item">
               <a class="products__link" href="">
-                <img
-                  class="products__img"
-                  src="./images/./studio/products/products-1.jpg"
-                  alt="Человек набирает текст на клавиатуре"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/./studio/products/products-1.jpg     1x,
+                      ./images/./studio/products/products-1@2x.jpeg 2x
+                    "
+                    sizes="img/jpeg"
+                  />
+                  <source
+                    srcset="
+                      ./images/./studio/products/products-1.webp    1x,
+                      ./images/./studio/products/products-1@2x.webp 2x
+                    "
+                    sizes="img/webp"
+                  />
+                  <img
+                    class="products__img"
+                    src="./images/./studio/products/products-1.jpg"
+                    alt="Человек набирает текст на клавиатуре"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
               </a>
               <div class="products__thumb">
                 <p class="products__discription">Десктопные приложения</p>
@@ -142,12 +158,29 @@
             </li>
             <li class="products__item">
               <a class="products__link" href="">
-                <img
-                  src="./images/./studio/products/products-2.jpg"
-                  alt="Человек сравнивает свой телефон с изображением на ноутбуке"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/./studio/products/products-2.jpg     1x,
+                      ./images/./studio/products/products-2@2x.jpeg 2x
+                    "
+                    sizes="img/jpeg"
+                  />
+                  <source
+                    srcset="
+                      ./images/./studio/products/products-2.webp    1x,
+                      ./images/./studio/products/products-2@2x.webp 2x
+                    "
+                    sizes="img/webp"
+                  />
+                  <img
+                    class="products__img"
+                    src="./images/./studio/products/products-2.jpg"
+                    alt="Человек сравнивает свой телефон с изображением на ноутбуке"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
               </a>
               <div class="products__thumb">
                 <p class="products__discription">Мобильные приложения</p>
@@ -155,12 +188,29 @@
             </li>
             <li class="products__item">
               <a class="products__link" href="">
-                <img
-                  src="./images/./studio/products/products-3.jpg"
-                  alt="Человек рисует на планшете"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/./studio/products/products-3.jpg     1x,
+                      ./images/./studio/products/products-3@2x.jpeg 2x
+                    "
+                    sizes="img/jpeg"
+                  />
+                  <source
+                    srcset="
+                      ./images/./studio/products/products-3.webp    1x,
+                      ./images/./studio/products/products-3@2x.webp 2x
+                    "
+                    sizes="img/webp"
+                  />
+                  <img
+                    class="products__img"
+                    src="./images/./studio/products/products-3.jpg"
+                    alt="Человек рисует на планшете"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
               </a>
               <div class="products__thumb">
                 <p class="products__discription">Дизайнерские решения</p>
@@ -168,7 +218,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Блок Наша команда -->
       <!-- <section class="team">

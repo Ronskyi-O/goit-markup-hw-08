@@ -403,6 +403,11 @@ img {
   text-transform: uppercase;
   color: var(--additional-color);
 }
+@media screen and (max-width: 1199px) {
+  .products {
+    display: none;
+  }
+}
 
 .team {
   padding: 94px 0;

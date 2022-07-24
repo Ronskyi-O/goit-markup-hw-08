@@ -22,7 +22,6 @@
   </head>
   <body>
     <!-- Хедер -->
-
     <!-- <header class="header">
       <div class="header__container container">
         <a class="header__logo logo logo--black" href="./index.html" lang="en"
@@ -63,10 +62,8 @@
     </header> -->
 
     <!-- Основная часть страницы -->
-
     <main>
       <!-- Блок Портфолио -->
-
       <section class="portfolio">
         <div class="container">
           <ul class="portfolio__menu menu">
@@ -90,13 +87,62 @@
           <ul class="portfolio__cardSet cardSet">
             <li class="portfolio__card card">
               <div class="card__imgWrapper">
-                <img
-                  class="card__img"
-                  src="./images/portfolio/portfolio-1.jpg"
-                  alt="рабочий экран ноутбука"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-1_des.webp    1x,
+                      ./images/portfolio/portfolio-1_des@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-1_des.jpeg    1x,
+                      ./images/portfolio/portfolio-1_des@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-1_tab.webp    1x,
+                      ./images/portfolio/portfolio-1_tab@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-1_tab.jpeg    1x,
+                      ./images/portfolio/portfolio-1_tab@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(max-width: 767px"
+                    srcset="
+                      ./images/portfolio/portfolio-1_mob.webp    1x,
+                      ./images/portfolio/portfolio-1_mob@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-1_mob.jpeg    1x,
+                      ./images/portfolio/portfolio-1_mob@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="card__img"
+                    src="./images/portfolio/portfolio-1_mob.jpeg"
+                    alt="рабочий экран ноутбука"
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
+                  />
+                </picture>
                 <div class="card__overlay overlay">
                   <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -112,13 +158,62 @@
             </li>
             <li class="portfolio__card card">
               <div class="card__imgWrapper">
-                <img
-                  class="card__img"
-                  src="./images/portfolio/portfolio-2.jpg"
-                  alt="двое мужчин играют в баскетбол"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-2_des.webp    1x,
+                      ./images/portfolio/portfolio-2_des@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-2_des.jpeg    1x,
+                      ./images/portfolio/portfolio-2_des@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-2_tab.webp    1x,
+                      ./images/portfolio/portfolio-2_tab@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-2_tab.jpeg    1x,
+                      ./images/portfolio/portfolio-2_tab@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(max-width: 767px"
+                    srcset="
+                      ./images/portfolio/portfolio-2_mob.webp    1x,
+                      ./images/portfolio/portfolio-2_mob@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-2_mob.jpeg    1x,
+                      ./images/portfolio/portfolio-2_mob@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="card__img"
+                    src="./images/portfolio/portfolio-2_mob.jpeg"
+                    alt="двое мужчин играют в баскетбол"
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
+                  />
+                </picture>
                 <div class="card__overlay overlay">
                   <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -137,13 +232,62 @@
 
             <li class="portfolio__card card">
               <div class="card__imgWrapper">
-                <img
-                  class="card__img"
-                  src="./images/portfolio/portfolio-3.jpg"
-                  alt="название ресторана на фоне рыбы"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-3_des.webp    1x,
+                      ./images/portfolio/portfolio-3_des@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-3_des.jpeg    1x,
+                      ./images/portfolio/portfolio-3_des@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-3_tab.webp    1x,
+                      ./images/portfolio/portfolio-3_tab@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-3_tab.jpeg    1x,
+                      ./images/portfolio/portfolio-3_tab@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(max-width: 767px"
+                    srcset="
+                      ./images/portfolio/portfolio-3_mob.webp    1x,
+                      ./images/portfolio/portfolio-3_mob@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-3_mob.jpeg    1x,
+                      ./images/portfolio/portfolio-3_mob@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="card__img"
+                    src="./images/portfolio/portfolio-3_mob.jpeg"
+                    alt="название ресторана на фоне рыбы"
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
+                  />
+                </picture>
                 <div class="card__overlay overlay">
                   <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -159,13 +303,62 @@
             </li>
             <li class="portfolio__card card">
               <div class="card__imgWrapper">
-                <img
-                  class="card__img"
-                  src="./images/portfolio/portfolio-4.jpg"
-                  alt="наушники"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-4_des.webp    1x,
+                      ./images/portfolio/portfolio-4_des@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-4_des.jpeg    1x,
+                      ./images/portfolio/portfolio-4_des@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-4_tab.webp    1x,
+                      ./images/portfolio/portfolio-4_tab@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-4_tab.jpeg    1x,
+                      ./images/portfolio/portfolio-4_tab@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(max-width: 767px"
+                    srcset="
+                      ./images/portfolio/portfolio-4_mob.webp    1x,
+                      ./images/portfolio/portfolio-4_mob@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-4_mob.jpeg    1x,
+                      ./images/portfolio/portfolio-4_mob@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="card__img"
+                    src="./images/portfolio/portfolio-4_mob.jpeg"
+                    alt="наушники"
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
+                  />
+                </picture>
                 <div class="card__overlay overlay">
                   <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -181,13 +374,62 @@
             </li>
             <li class="portfolio__card card">
               <div class="card__imgWrapper">
-                <img
-                  class="card__img"
-                  src="./images/portfolio/portfolio-5.jpg"
-                  alt="две коробки"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-5_des.webp    1x,
+                      ./images/portfolio/portfolio-5_des@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-5_des.jpeg    1x,
+                      ./images/portfolio/portfolio-5_des@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-5_tab.webp    1x,
+                      ./images/portfolio/portfolio-5_tab@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-5_tab.jpeg    1x,
+                      ./images/portfolio/portfolio-5_tab@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(max-width: 767px"
+                    srcset="
+                      ./images/portfolio/portfolio-5_mob.webp    1x,
+                      ./images/portfolio/portfolio-5_mob@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-5_mob.jpeg    1x,
+                      ./images/portfolio/portfolio-5_mob@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="card__img"
+                    src="./images/portfolio/portfolio-5_mob.jpeg"
+                    alt="две коробки"
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
+                  />
+                </picture>
                 <div class="card__overlay overlay">
                   <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -203,13 +445,62 @@
             </li>
             <li class="portfolio__card card">
               <div class="card__imgWrapper">
-                <img
-                  class="card__img"
-                  src="./images/portfolio/portfolio-6.jpg"
-                  alt="монитор"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-6_des.webp    1x,
+                      ./images/portfolio/portfolio-6_des@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-6_des.jpeg    1x,
+                      ./images/portfolio/portfolio-6_des@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-6_tab.webp    1x,
+                      ./images/portfolio/portfolio-6_tab@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-6_tab.jpeg    1x,
+                      ./images/portfolio/portfolio-6_tab@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(max-width: 767px"
+                    srcset="
+                      ./images/portfolio/portfolio-6_mob.webp    1x,
+                      ./images/portfolio/portfolio-6_mob@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-6_mob.jpeg    1x,
+                      ./images/portfolio/portfolio-6_mob@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="card__img"
+                    src="./images/portfolio/portfolio-6_mob.jpeg"
+                    alt="монитор"
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
+                  />
+                </picture>
                 <div class="card__overlay overlay">
                   <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -225,13 +516,62 @@
             </li>
             <li class="portfolio__card card">
               <div class="card__imgWrapper">
-                <img
-                  class="card__img"
-                  src="./images/portfolio/portfolio-7.jpg"
-                  alt="открытая книга"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-7_des.webp    1x,
+                      ./images/portfolio/portfolio-7_des@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-7_des.jpeg    1x,
+                      ./images/portfolio/portfolio-7_des@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-7_tab.webp    1x,
+                      ./images/portfolio/portfolio-7_tab@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-7_tab.jpeg    1x,
+                      ./images/portfolio/portfolio-7_tab@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(max-width: 767px"
+                    srcset="
+                      ./images/portfolio/portfolio-7_mob.webp    1x,
+                      ./images/portfolio/portfolio-7_mob@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-7_mob.jpeg    1x,
+                      ./images/portfolio/portfolio-7_mob@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="card__img"
+                    src="./images/portfolio/portfolio-7_mob.jpeg"
+                    alt="открытая книга"
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
+                  />
+                </picture>
                 <div class="card__overlay overlay">
                   <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -247,13 +587,62 @@
             </li>
             <li class="portfolio__card card">
               <div class="card__imgWrapper">
-                <img
-                  class="card__img"
-                  src="./images/portfolio/portfolio-8.jpg"
-                  alt="лейба"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-8_des.webp    1x,
+                      ./images/portfolio/portfolio-8_des@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-8_des.jpeg    1x,
+                      ./images/portfolio/portfolio-8_des@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-8_tab.webp    1x,
+                      ./images/portfolio/portfolio-8_tab@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-8_tab.jpeg    1x,
+                      ./images/portfolio/portfolio-8_tab@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(max-width: 767px"
+                    srcset="
+                      ./images/portfolio/portfolio-8_mob.webp    1x,
+                      ./images/portfolio/portfolio-8_mob@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-8_mob.jpeg    1x,
+                      ./images/portfolio/portfolio-8_mob@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="card__img"
+                    src="./images/portfolio/portfolio-8_mob.jpeg"
+                    alt="лейба"
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
+                  />
+                </picture>
                 <div class="card__overlay overlay">
                   <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -269,13 +658,62 @@
             </li>
             <li class="portfolio__card card">
               <div class="card__imgWrapper">
-                <img
-                  class="card__img"
-                  src="./images/portfolio/portfolio-9.jpg"
-                  alt="человек печатает на ноутбуке"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-9_des.webp    1x,
+                      ./images/portfolio/portfolio-9_des@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio/portfolio-9_des.jpeg    1x,
+                      ./images/portfolio/portfolio-9_des@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-9_tab.webp    1x,
+                      ./images/portfolio/portfolio-9_tab@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-9_tab.jpeg    1x,
+                      ./images/portfolio/portfolio-9_tab@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(max-width: 767px"
+                    srcset="
+                      ./images/portfolio/portfolio-9_mob.webp    1x,
+                      ./images/portfolio/portfolio-9_mob@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/portfolio-9_mob.jpeg    1x,
+                      ./images/portfolio/portfolio-9_mob@2x.jpeg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="card__img"
+                    src="./images/portfolio/portfolio-9_mob.jpeg"
+                    alt="человек печатает на ноутбуке"
+                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
+                  />
+                </picture>
                 <div class="card__overlay overlay">
                   <p class="overlay__text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -295,7 +733,6 @@
     </main>
 
     <!-- Футер -->
-
     <footer class="footer">
       <div class="footer__container container">
         <div class="footer__main">

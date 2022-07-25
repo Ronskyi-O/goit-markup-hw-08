@@ -4,4 +4,8 @@ body {
     font-weight: 700;
     color: var(--main-color);
     background-color: var(--main-background-color);
+
+    &.no-scroll {
+        overflow: hidden;
+    }
 }
